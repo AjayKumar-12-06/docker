@@ -3,4 +3,4 @@ RUN dnf install nginx -y
 
 CMD ["google.com"]
 
-ENTRYPOINT ["PING"]
+ENTRYPOINT ["ping"]
